@@ -21,7 +21,8 @@ jobs:
 
       - name: Install Dependencies # Step 3: Install backend project dependencies
         run: npm install
-
+      - name: Run Test
+        run: npm test
       # - name: Run Tests (Optional, but highly recommended for CI) # Step 4: Run your backend tests
       #   run: npm test # Assuming you have an 'npm test' script
 
