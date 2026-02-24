@@ -21,8 +21,8 @@ jobs:
       - name: Install Dependencies # Step 3: Install backend project dependencies
         run: npm install
 
-      # - name: Run Tests (Optional, but highly recommended for CI) # Step 4: Run your backend tests
-      #   run: npm test # Assuming you have an 'npm test' script
+      - name: Run Tests # Step 4: Run your backend tests
+        run: npm test # Assuming you have an 'npm test' script
 
       # - name: Build Docker Image (If not handled by Render directly) # Optional, Render can often build from Dockerfile
       #   run: docker build -t blogify-backend . # Example command
